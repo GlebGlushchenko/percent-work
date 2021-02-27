@@ -5,7 +5,7 @@ const resultElement = document.getElementById('result');
 
 const test = (number, percent) => {
   const finalPercent = (number * percent) / 100;
-  resultElement.innerHTML = finalPercent;
+  resultElement.innerHTML = number - finalPercent + ' rub.';
 };
 
 btn.addEventListener('click', () => {
